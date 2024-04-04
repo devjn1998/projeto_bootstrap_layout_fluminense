@@ -1,0 +1,128 @@
+header
+{
+    background-color: #296140;
+}
+
+
+
+section#inicio
+{
+    background-color: #fafafa;
+    border-bottom: 1px solid rgba(0,0,0,0.1)
+}
+section#lancamentos
+{
+    border-bottom: 1px solid rgba(0,0,0,0.1)
+}
+
+.nav-link
+{
+    color: white;
+    text-transform: uppercase;
+}
+
+#cabecalho .nav .nav-link.active
+{
+    background-color: #800320;
+}
+
+
+.nav-link:hover
+{
+    color: #800320;
+}
+
+.titulo
+{
+    text-align: center;
+    font-weight: bolder;
+    color: #800320;
+}
+
+.col
+{
+    text-align: center;
+    
+}
+
+.col .alinhar_itens
+{
+    text-align: center;
+    text-decoration: none;
+    color: #800320;
+    font-weight: bold;
+}
+
+h2.logo-mobile
+{
+    display: none;
+}
+
+.text-colored
+{
+    color: #800320;
+}
+
+.nav-produtos .nav-link.active 
+{
+    background-color: #800320;
+    color: #fff;
+}
+.nav-produtos .nav-link.active:hover
+{
+    background-color: #85112c
+}
+
+div.col-md-3
+{
+    text-align: center;
+}
+
+footer
+{
+    background-color: #296140;
+    padding: 100px;
+    text-align: center;
+}
+
+footer h2
+{
+    color: white;
+}
+
+
+
+@media (max-width: 767px) {
+    
+    .logo_fluminense
+    {
+        display: none;
+    }
+
+    button.navbar-toggler.mb-2
+    {
+        background-color: white;
+    }
+    
+    h2.logo-mobile
+    {
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: white;
+        display: block;
+    }
+    
+    nav
+    {
+        text-align: center;
+    }
+}
+
+@media (min-width: 767px)
+{
+    button.navbar-toggler.mb-2
+    {
+        background-color: white;
+    }
+}
+

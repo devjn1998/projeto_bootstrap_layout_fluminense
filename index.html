@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Fluminense</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">
+                <h2 class="logo-mobile"><span style="color: #800320">Fluminense</span> futebol club</h2>
+                <a href="#">
+                    <img class="logo_fluminense" src="/images/logo/logo-desktop.png" alt="logo_fluminense">
+                </a>
+            </h1>
+            <button class="navbar-toggler mb-2" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#inicio">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#camisas">
+                            Camisas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#">
+                            Conjuntos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#">
+                            Regatas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#">
+                            Bermudas
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="inicio">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="/images/slides/slide_1.png" alt="slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/slides/slide_2.png" alt="slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/slides/slide_3.png" alt="slide 3">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" data-bs-target="#carousel" data-bs-slide-to="0" type="button"></button>
+                    <button data-bs-target="#carousel" data-bs-slide-to="1" type="button"></button>
+                    <button data-bs-target="#carousel" data-bs-slide-to="2" type="button"></button>
+                </div>
+            </div>
+
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="titulo mb-5">MAIS BUSCADOS</h2>
+                        <div class="col">
+                            <a class="alinhar_itens" href="#">
+                                <img alt="Armaduras"
+                                    src="https://fluminense2023.vteximg.com.br/arquivos/categ_arm12024.png?v=638469681303500000">
+                                <h2 class="fs-4 mt-3 fw-bold">ARMADURAS</h2>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a class="alinhar_itens" href="#">
+                                <img alt="Masculino"
+                                    src="https://fluminense2023.vteximg.com.br/arquivos/categ_masc.png?v=638409224451870000">
+                                <h2 class="fs-4 mt-3 fw-bold">MASCULINO</h2>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a class="alinhar_itens" href="#">
+                                <img alt="Feminino"
+                                    src="https://fluminense2023.vteximg.com.br/arquivos/categ_fem.png?v=638409224451230000">
+                                <h2 class="fs-4 mt-3 fw-bold">FEMININO</h2>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a class="alinhar_itens" href="#">
+                                <img alt="Campeão da América"
+                                    src="https://fluminense2023.vteximg.com.br/arquivos/bc_libertadores.png?v=638430196674830000">
+                                <h2 class="fs-4 mt-3 fw-bold">CAMPEÃO DA AMÉRICA</h2>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a class="alinhar_itens" href="#">
+                                <img alt="Calçados"
+                                    src="https://fluminense2023.vteximg.com.br/arquivos/categ_calcado.png?v=638409224448900000">
+                                <h2 class="fs-4 mt-3 fw-bold">CALÇADOS</h2>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section id="lancamentos">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <h2 class="titulo mb-5">LANÇAMENTOS</h2>
+                    <div class="row">
+                        <div class="row mt-4">
+                            <div class="col md-4">
+                                <img class="d-block w-100 rounded mb-2" alt="camisa-ofc-torcedor"
+                                    src="https://fluminense.vteximg.com.br/arquivos/ids/162448-1000-1000/camisa-masc-torcedor-of2-60835-1.jpg?v=638467187368670000">
+                                <h2 class="fs-4 mt-3 fw-bold">Camisa Fluminense OF2 2024</h2>
+                                <p class="h4 fw-bold" style="color: green;">R$ 349,99</p>
+                                <button class="btn btn-success">COMPRAR +</button>
+                            </div>
+                            <div class="col md-4">
+                                <img class="d-block w-100 rounded mb-2" alt="camisa-ofc-torcedor"
+                                    src="https://fluminense.vteximg.com.br/arquivos/ids/162368-1000-1000/camisa-1906-manga-curta-60970-1.jpg?v=638455261074900000">
+                                <h2 class="fs-4 mt-3 fw-bold">Camisa Fluminense manga curta 1906</h2>
+                                <p class="h4 fw-bold" style="color: green;">R$ 269,99</p>
+                                <button class="btn btn-success">COMPRAR +</button>
+                            </div>
+                            <div class="col md-4">
+                                <img class="d-block w-100 rounded mb-2" alt="camisa-ofc-torcedor"
+                                    src="https://fluminense.vteximg.com.br/arquivos/ids/162143-1000-1000/camisa-of1-2024-masculina-torcedor-1-1.jpg?v=638442003205100000">
+                                <h2 class="fs-4 mt-3 fw-bold">Camisa Fluminense Masc OF1 2024 Torcedor</h2>
+                                <p class="h4 fw-bold" style="color: green;">R$ 349,99</p>
+                                <button class="btn btn-success">COMPRAR +</button>
+                            </div>
+                            <div class="col md-4">
+                                <img class="d-block w-100 rounded mb-2" alt="camisa-ofc-torcedor"
+                                    src="https://fluminense.vteximg.com.br/arquivos/ids/162448-1000-1000/camisa-masc-torcedor-of2-60835-1.jpg?v=638467187368670000">
+                                <h2 class="fs-4 mt-3 fw-bold">Camisa Fluminense OF2 2024</h2>
+                                <p class="h4 fw-bold" style="color: green;">R$ 349,99</p>
+                                <button class="btn btn-success">COMPRAR +</button>
+                            </div>
+
+
+                        </div>
+        </section>
+
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="titulo mb-5">PRODUTOS</h2>
+                </div>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-produtos">
+                        <button data-bs-toggle="tab" data-bs-target="#camisas" class="fw-bold text-start nav-link text-colored active" type="button">Camisas</button>
+                        <button data-bs-toggle="tab" data-bs-target="#conjuntos" class="fw-bold text-start nav-link text-colored " type="button">Conjuntos</button>
+                        <button data-bs-toggle="tab" data-bs-target="#regatas" class="fw-bold text-start nav-link text-colored " type="button">Regatas</button>
+                        <button data-bs-toggle="tab" data-bs-target="#bermudas" class="fw-bold text-start nav-link text-colored " type="button">Bermudas</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="camisas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/camisas/camisa_1.webp" alt="camisa_1">
+                                    <h5>Camisa Fluminense OF1 2024 Torcedor S/N Umbro</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 349,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/camisas/camisa_1_feminina.webp" alt="camisa_1">
+                                    <h5>Camisa Feminina Fluminense OF1 2024 Torcedora</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 249,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/camisas/camisa_2.webp" alt="camisa_1">
+                                    <h5>Camisa Fluminense OF2 2024 Torcedor S/N Umbro</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 349,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/camisas/camisa_2_feminina.webp" alt="camisa_1">
+                                    <h5>Camisa Feminina Fluminense OF2 2024 Torcedora</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 249,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/camisas/camisa_3.webp" alt="camisa_1">
+                                    <h5>Camisa Fluminense Treino 2024 </h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 299,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/camisas/camisa_4.webp" alt="camisa_1">
+                                    <h5>Camisa Fluminense Goleiro 2024 Torcedor Umbro</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 399,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/camisas/camisa_6.webp" alt="camisa_1">
+                                    <h5>Camisa Fluminense Goleiro 2024 Torcedor Umbro</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 399,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/camisas/camisa_8.webp" alt="camisa_1">
+                                    <h5>Camisa Fluminense Torcedor S/N Umbro</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 349,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/camisas/camisa_9.webp" alt="camisa_1">
+                                    <h5>Camisa Fluminense Torcedor S/N Umbro</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 349,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="conjuntos">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/conjuntos/conjunto_1.webp" alt="camisa_1">
+                                    <h5>Conjunto Fluminense OF1 Torcedor</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 349,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/conjuntos/conjunto_2.webp" alt="camisa_1">
+                                    <h5>Conjunto Fluminense OF2 Torcedor</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 349,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/conjuntos/conjunto_3.webp" alt="camisa_1">
+                                    <h5>Conjunto Fluminense OF3 Torcedor</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 349,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                                
+                            </div>
+                        </div>    
+
+                            <div class="tab-pane" id="regatas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="/images/regatas/regata_1.webp" alt="camisa_1">
+                                        <h5>Regata Fluminense OF1 Torcedor</h5>
+                                        <p style="color: green;" class="h4 fw-bold">R$ 99,90</p>
+                                        <button class="btn btn-success">COMPRAR +</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="/images/regatas/regata_2.webp" alt="camisa_1">
+                                        <h5>Regata Fluminense OF2 Torcedor</h5>
+                                        <p style="color: green;" class="h4 fw-bold">R$ 99,90</p>
+                                        <button class="btn btn-success">COMPRAR +</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="/images/regatas/regata_3.webp" alt="camisa_1">
+                                        <h5>Regata Fluminense OF3 Torcedor</h5>
+                                        <p style="color: green;" class="h4 fw-bold">R$ 99,90</p>
+                                        <button class="btn btn-success">COMPRAR +</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="/images/regatas/regata_4.webp" alt="camisa_1">
+                                        <h5>Regata Fluminense OF4 Torcedor</h5>
+                                        <p style="color: green;" class="h4 fw-bold">R$ 99,90</p>
+                                        <button class="btn btn-success">COMPRAR +</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="/images/regatas/regata_5.webp" alt="camisa_1">
+                                        <h5>Regata Fluminense OF5 Torcedor</h5>
+                                        <p style="color: green;" class="h4 fw-bold">R$ 99,90</p>
+                                        <button class="btn btn-success">COMPRAR +</button>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        <div class="tab-pane" id="bermudas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/bermudas/short_1.webp" alt="camisa_1">
+                                    <h5>Bermuda Fluminense OF1 Torcedor</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 149,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                               
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/bermudas/short_2.webp" alt="camisa_1">
+                                    <h5>Bermuda Fluminense OF2 Torcedor</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 149,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                               
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/bermudas/short_3.webp" alt="camisa_1">
+                                    <h5>Bermuda Fluminense OF3 Torcedor</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 149,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                               
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="/images/bermudas/short_4.webp" alt="camisa_1">
+                                    <h5>Bermuda Fluminense OF4 Torcedor</h5>
+                                    <p style="color: green;" class="h4 fw-bold">R$ 149,99</p>
+                                    <button class="btn btn-success">COMPRAR +</button>
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+<footer>
+    <tfoot>
+        <h2>
+            &copy; <span style="color: #800320;" class="fw-bold">Fluminense</span> Futebol Club &copy;
+        </h2>
+        <p style="color: white;" class="fw-bold">layout criado por: Juan</p>
+    </tfoot>
+</footer>
+
+
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
